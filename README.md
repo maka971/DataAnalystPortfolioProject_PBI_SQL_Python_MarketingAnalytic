@@ -43,11 +43,11 @@
 
 | Overview | Conversion Details |
 |:---:|:---:|
-| ![Overview](marketing-images/overview-dashboard.png) | ![Conversion Details](marketing-images/conversion-details.png) |
+| ![Overview](overview-dashboard.png) | ![Conversion Details](conversion-details.png) |
 
 | Social Media Details | Customer Review Details |
 |:---:|:---:|
-| ![Social Media Details](marketing-images/social-media-details.png) | ![Customer Review Details](marketing-images/customer-review-details.png) |
+| ![Social Media Details](social-media-details.png) | ![Customer Review Details](customer-review-details.png) |
 
 </div>
 
@@ -157,7 +157,7 @@ ADDCOLUMNS (
 
 The report is built on a **star schema** with three fact tables (`fact_customer_journey`, `fact_engagement`, `fact_customer_reviews_with_sentiment`) connected to shared dimensions (`dim_customers`, `dim_products`, `Calendar`), plus a `_Calculations` table for standalone DAX measures.
 
-![Data Model](marketing-images/data-model.png)
+![Data Model](data-model.png)
 *Star schema linking customer journey, engagement, and sentiment-enriched review data to customer, product, and calendar dimensions.*
 
 ---
@@ -166,7 +166,7 @@ The report is built on a **star schema** with three fact tables (`fact_customer_
 
 ### 🗂️ Overview
 
-![Overview](marketing-images/overview-dashboard.png)
+![Overview](overview-dashboard.png)
 *High-level view of Conversion, Social Media, and Customer Review performance for the selected year — filterable by product.*
 
 - Conversion Rate KPI + trend by month and by product
@@ -175,7 +175,7 @@ The report is built on a **star schema** with three fact tables (`fact_customer_
 
 ### 🔄 Conversion Details
 
-![Conversion Details](marketing-images/conversion-details.png)
+![Conversion Details](conversion-details.png)
 *Funnel view of the customer journey from View → Click → Drop-off → Purchase, with conversion rate broken down by month and product.*
 
 - Customer Journeys by Action (funnel: View, Click, Drop-off, Purchase)
@@ -185,7 +185,7 @@ The report is built on a **star schema** with three fact tables (`fact_customer_
 
 ### 📱 Social Media Details
 
-![Social Media Details](marketing-images/social-media-details.png)
+![Social Media Details](social-media-details.png)
 *Engagement view tracking Views, Clicks, and Likes across time and content type (Blog, Social Media, Video).*
 
 - Views, Clicks & Likes KPI cards
@@ -195,7 +195,7 @@ The report is built on a **star schema** with three fact tables (`fact_customer_
 
 ### 💬 Customer Review Details
 
-![Customer Review Details](marketing-images/customer-review-details.png)
+![Customer Review Details](customer-review-details.png)
 *Deep dive into customer sentiment — rating distribution, sentiment category breakdown, and a searchable review log.*
 
 - Average Rating KPI
@@ -222,7 +222,7 @@ Customer ratings remained fairly consistent, **averaging around 3.7** throughout
 
 ## 🎯 Goals & Recommended Actions
 
-![Goals and Actions](marketing-images/goals-and-actions.png)
+![Goals and Actions](goals-and-actions.png)
 *Executive summary slide translating each finding into a concrete goal and action plan.*
 
 | Goal | Action |
@@ -235,13 +235,13 @@ Customer ratings remained fairly consistent, **averaging around 3.7** throughout
 <summary><strong>🖼️ Supporting presentation slides (click to expand)</strong></summary>
 
 **Overview — Findings Summary**
-![Overview Findings](marketing-images/overview-findings.png)
+![Overview Findings](overview-findings.png)
 
 **Decreased Conversion Rates**
-![Decreased Conversion Rates](marketing-images/decreased-conversion-rates.png)
+![Decreased Conversion Rates](decreased-conversion-rates.png)
 
 **Reduced Customer Engagement**
-![Reduced Customer Engagement](marketing-images/reduced-customer-engagement.png)
+![Reduced Customer Engagement](reduced-customer-engagement.png)
 
 </details>
 
@@ -289,7 +289,7 @@ DataAnalystPortfolioProject_PBI_SQL_Python_MarketingAnalytic/
 │
 ├── Stage 5 - Presentation.pptx                         # Executive summary deck
 │
-├── marketing-images/
+├── 
 │   ├── overview-dashboard.png
 │   ├── conversion-details.png
 │   ├── social-media-details.png
